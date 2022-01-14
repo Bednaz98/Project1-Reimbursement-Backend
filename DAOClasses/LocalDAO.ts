@@ -3,10 +3,15 @@ import CosmosInteractions from "./DAOInterface";
 import {readFile, writeFile} from 'fs/promises';
 import ProfileManager from "../Project1-GitUtil-Reimbursement/Classes/ProfileManager";
 import RequestManager from "../Project1-GitUtil-Reimbursement/Classes/RequestManager";
-import RequestBuilder from "../Project1-GitUtil-Reimbursement/Classes/RequestBuilder";
+import { RequestStatus } from "../Project1-GitUtil-Reimbursement/Types/Enums";
+import Logger from "../Services/ServerLogger";
 
 
 export default class LocalDAO implements CosmosInteractions{
+    private DebugLog:Logger;
+    constructor(InitLog:Logger){
+        this.DebugLog = InitLog
+    }
     private ProfileFilePath():string{
         return './DAOClasses/MinorProfileData.json';
     }
@@ -20,7 +25,7 @@ export default class LocalDAO implements CosmosInteractions{
         const TempProfiles:Profile[] = JSON.parse(DataBuffer.toString())
         return TempProfiles;
     }
-    public async ReadRequestDate():Promise<Request[]> {
+    private async ReadRequestDate():Promise<Request[]> {
         const DataBuffer: Buffer  = await readFile(this.RequestFilePath());
         const TempRequest: Request[] = JSON.parse(DataBuffer.toString())
         return TempRequest;
@@ -35,7 +40,7 @@ export default class LocalDAO implements CosmosInteractions{
         const thing = await writeFile(this.ProfileFilePath(), JSON.stringify(InputData));// (path, data to write)
         return (thing === undefined);
     }
-    public async WriteRequestData(InputData:Request[]): Promise<boolean>{
+    private async WriteRequestData(InputData:Request[]): Promise<boolean>{
         if(InputData.length <1){
             const thing = await writeFile(this.RequestFilePath(), JSON.stringify([{}]));// (path, data to write)
             return (thing === undefined);
@@ -115,13 +120,14 @@ export default class LocalDAO implements CosmosInteractions{
             }
         }
     }
-
+    
     async DeleteRequest(InputRequest: Request): Promise<boolean> {
         let RequestArray:Request[] = await this.ReadRequestDate();
         if(RequestArray.length === 0){ return true}
         for(let i =0; i <RequestArray.length;i++ ){
             if(RequestArray[i].id === InputRequest.id){ 
-                RequestArray = RequestArray.slice(i,i);
+                RequestArray[i].RequestStatus = RequestStatus.deleted;
+                RequestArray[i].ModifiedDate = Math.round(Date.now() / 1000);
                 const Complete:boolean = await this.WriteRequestData(RequestArray);
                 return Complete;
             }

@@ -13,7 +13,7 @@ export default interface CosmosInteractions{
     GetAllProfiles(                        ):Promise<Profile[]>
     /**Update a Profile on the Server*/
     UpdateProfile(      InputProfile:Profile):Promise<Profile>
-    /**Delete a Profile on the Server*/
+    /**Delete a Profile on the Server permanently*/
     DeleteProfile(      InputProfile:Profile):Promise<boolean>
 
     //Request Commands=========================================
@@ -25,6 +25,6 @@ export default interface CosmosInteractions{
     GetAllRequest(                          ):Promise<Request[]>
     /**Update a Request on the server*/
     UpdateRequest(      InputRequest:Request):Promise<Request>
-    /**Delete a Request on the Server*/
+    /**This does not permanently delete the request, instead it marks the request as deleted for filtering by none admins*/
     DeleteRequest(      InputRequest:Request):Promise<boolean>
 }
