@@ -24,7 +24,7 @@ const app = express(); // Server Init
 // Converts body to json Automatically
 app.use(express.json()); // Auto convert all incoming request to json
 app.use(cors()); // enable cors
-const PortNumber:number = 3000;
+const PortNumber:number = 3001;
 
 //==============================================
 // Logging service

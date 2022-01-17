@@ -1,7 +1,7 @@
 import LocalDAO from "../DAOClasses/LocalDAO";
 import ThrowServerError from "../Project1-GitUtil-Reimbursement/Classes/ServerErrorClass";
-import { ResultReturnCheck, TransferProfileArray } from "../Project1-GitUtil-Reimbursement/Types/dto";
-import { Profile } from "../Project1-GitUtil-Reimbursement/Types/Entity";
+import { ResultReturnCheck, TransferProfile, TransferProfileArray } from "../Project1-GitUtil-Reimbursement/Types/dto";
+import { HTTPCreateProfile, Profile } from "../Project1-GitUtil-Reimbursement/Types/Entity";
 import { HTTPRequestErrorFlag } from "../Project1-GitUtil-Reimbursement/Types/Enums";
 import { AdminHTTPCLInterface } from "../Project1-GitUtil-Reimbursement/Types/HTTPCommands";
 import DAOCheckManager from "./DAOCheckService";
@@ -13,6 +13,9 @@ export default class AdminService implements AdminHTTPCLInterface{
     constructor(InitDAO, InitDAOCheckManager:DAOCheckManager){
         this.DAOclass = InitDAO;
         this.Checker= InitDAOCheckManager
+    }
+    AdminCreateProfile(ProfileInit: HTTPCreateProfile, ManagerID: string): Promise<TransferProfile> {
+        throw new Error("Method not implemented.");
     }
 
     // returns all employees in the DAO
