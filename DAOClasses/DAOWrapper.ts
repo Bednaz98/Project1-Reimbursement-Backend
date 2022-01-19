@@ -14,10 +14,10 @@ export default class DAOWrapper implements DAOInterface{
     constructor(Setting:number, InitLogger:Logger){
         this.DebugLog = InitLogger;
         switch(Setting){
-            case    0:{ this.DAOClass = new VirtualDAO(InitLogger);}// console.log('using VDAO')}
-            case    1:{ this.DAOClass = new LocalDAO(InitLogger);}// console.log('using LocalDAO')}
-            case    2:{ this.DAOClass = new CosmosDAO(InitLogger);}// console.log('using ComosDAO')}
-            default  :{ this.DAOClass = new VirtualDAO(InitLogger);}// console.log('Wrapper using DEFAULT DAO')}
+            case    0:{ this.DAOClass = new VirtualDAO(InitLogger);break}// console.log('using VDAO')}
+            case    1:{ this.DAOClass = new LocalDAO(InitLogger);break}// console.log('using LocalDAO')}
+            case    2:{ this.DAOClass = new CosmosDAO(InitLogger);break}// console.log('using ComosDAO')}
+            default  :{ this.DAOClass = new VirtualDAO(InitLogger);break}// console.log('Wrapper using DEFAULT DAO')}
         }
     }
 

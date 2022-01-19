@@ -14,11 +14,11 @@ export default class LoginService implements LogHTTPCInterface{
     constructor(InitDAO:DAOWrapper){
         this.DAOClass = InitDAO;
     }
-    async Login(UserID:string):Promise<LoginReturn> {
+    async Login(UserID:string, Password):Promise<LoginReturn> {
         const ReturnProfile:Profile =await this.DAOClass.GetSingleProfile(UserID)
         if(!ReturnProfile){ ThrowServerError(HTTPRequestErrorFlag.EmployeeNotFoundGeneral) }
         const AuthenticationString:string = this.CreateCreds(UserID);
-        const ReturnLogin: LoginReturn = {ReturnProfile, AuthenticationString}
+        const ReturnLogin: LoginReturn = {ReturnProfile, AuthenticationString, password:'' }
         return ReturnLogin;
     }
     CreateCreds(UserID: string):string{

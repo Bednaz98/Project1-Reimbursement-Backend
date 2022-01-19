@@ -21,7 +21,7 @@ export default class RequestServices implements ManagerHTTPCLInterface{
         this.DebugLog = InitDebugLog
     }
 
-    async ManagerChangeRequest(ManagerID:string, RequestID:string,Type:RequestStatus ):Promise<TransferRequest> {
+    async ManagerChangeRequest(ManagerID:string, RequestID:string,Type:RequestStatus,Message:string  ):Promise<TransferRequest> {
         this.DebugLog.print('Service Mark Request called',0)
         // tries to check the DAO for this manager
         const FoundManager:Profile = await this.DAOClass.GetSingleProfile(ManagerID)
@@ -37,6 +37,7 @@ export default class RequestServices implements ManagerHTTPCLInterface{
         //if(Type == RequestStatus.All){ ThrowServerError(HTTPRequestErrorFlag.RequestManagerInvalidType) }
         // tries to find the request
         const FoundRequest:Request = await this.DAOClass.GetSingleRequest(RequestID);
+        FoundRequest.ManagerMessage=Message;
         //if(!FoundRequest){ ThrowServerError(HTTPRequestErrorFlag.RequestNotFound) }
         // report an error if the request was already changed from pending
         //if(FoundRequest.RequestStatus !== RequestStatus.Pending){ ThrowServerError(HTTPRequestErrorFlag.RequestChangeStatusError) }
@@ -46,7 +47,7 @@ export default class RequestServices implements ManagerHTTPCLInterface{
         //Mark Request
         IntermediateRequest.RequestStatus = Type;
         //Update Modified time
-        IntermediateRequest.ModifiedDate = Math.round(Date.now() / 1000);
+        IntermediateRequest.ModifiedDate = Date.now() ;
         //write request to the DAO
         const ReturnRequest:Request = await this.DAOClass.UpdateRequest(IntermediateRequest);
         //if(!ReturnRequest){ ThrowServerError(HTTPRequestErrorFlag.RequestUpdateError) }

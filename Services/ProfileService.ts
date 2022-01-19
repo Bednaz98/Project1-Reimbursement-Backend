@@ -34,7 +34,7 @@ export default class ProfileService implements ProfileHTTPCInterface{
         // else if (! this.Proc.ValidNameLengthCheck(  ProfileInit.LastName  )){ ThrowServerError(HTTPRequestErrorFlag.NameToShort) }
         // else if (! this.Proc.PasswordValidation(  ProfileInit.Password  )){ ThrowServerError(HTTPRequestErrorFlag.PasswordInitError) }
         // constructs full profile
-        const TempProfile:Profile = {FirstName:ProfileInit.FirstName, LastName:ProfileInit.LastName,Password:ProfileInit.Password ,ManagerID:ProfileInit.ManagerID }
+        const TempProfile:Profile = {FirstName:ProfileInit.FirstName, LastName:ProfileInit.LastName,Password:ProfileInit.Password ,id:ProfileInit.id }
         const NewProfile:Profile= (new ProfileManager(TempProfile)).DeconstructProfile()
 
         //DAO calls, at a minium to ensure a profile is created correctly.==================
@@ -53,7 +53,7 @@ export default class ProfileService implements ProfileHTTPCInterface{
         await this.DebugLog.print('Service Creating Profile: Writing to DAO',0)
         const ReturnProfile = await this.DAOClass.CreateProfile(NewProfile)
         //Last check to see if this return profile is truthy
-        if(ReturnProfile){ await this.DebugLog.print('Service Creating Profile: Service complete',0); return {ReturnProfile,AuthenticationString:''}}
+        if(ReturnProfile){ await this.DebugLog.print('Service Creating Profile: Service complete',0); return {ReturnProfile,AuthenticationString:'', password:''}}
         else {  this.DebugLog.print('Service Creating Profile: Server Error',0) ;ThrowServerError(HTTPRequestErrorFlag.ProfileServerCreationError)}
     }
     /**Used to change the first name of a profile received from an HTTP request*/
@@ -107,7 +107,7 @@ export default class ProfileService implements ProfileHTTPCInterface{
             }
     }
 
-    async MakeRequest(EmployeeID:string, Amount:number, file:any):Promise<TransferRequest> {
+    async MakeRequest(EmployeeID:string, Amount:number, Message:string):Promise<TransferRequest> {
         await this.DebugLog.print('Service Make Request',0)
         const FoundProfile:Profile = await this.DAOClass.GetSingleProfile(EmployeeID);
         // if(! FoundProfile){ ThrowServerError( HTTPRequestErrorFlag.EmployeeNotFoundGeneral )}
@@ -115,7 +115,7 @@ export default class ProfileService implements ProfileHTTPCInterface{
         // if(! await this.Checker.IsManger( (FoundManager) ) ) { ThrowServerError(HTTPRequestErrorFlag.NotAManager) }
         // else {
             const TempRequest:RequestBuilder = new RequestBuilder( FoundProfile.ManagerID, FoundProfile.id, Amount  );
-            if(file){ TempRequest.AttachMessage(file) }
+            if(Message.length >0){ TempRequest.AttachInputMessage(Message)}
             const DAOReturnRequest:Request = await this.DAOClass.CreateRequest(TempRequest.DeconstructRequest())
             if(! DAOReturnRequest){ ThrowServerError(HTTPRequestErrorFlag.RequestCreationError); }
             this.DebugLog.print('Service return created request',0)
@@ -173,8 +173,9 @@ export default class ProfileService implements ProfileHTTPCInterface{
         const AllRequest:Request[] = await this.DAOClass.GetAllRequest();
         this.DebugLog.print('Service all request, All request retrieved',0)
         // Filter the request for this employee, already manages security
+        let filteredArray:Request[]=[]
         this.DebugLog.print('Service all request, filtering request',0)
-        const RequestFound:Request[] = this.Proc.FilterRequestByID(FoundProfile.id, AllRequest )
+        const RequestFound:Request[] = this.Proc.FilterRequestByID(FoundProfile.id, filteredArray )
         this.DebugLog.print('Service returning all request',0)
         return RequestFound;
     }

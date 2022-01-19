@@ -116,6 +116,7 @@ export default class LocalDAO implements CosmosInteractions{
         for(let i =0; i <RequestArray.length;i++ ){
             if(RequestArray[i].id === InputRequest.id){ 
                 RequestArray[i]=InputRequest;
+                await this.WriteRequestData(RequestArray);
                 return RequestArray[i]
             }
         }

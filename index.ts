@@ -32,7 +32,7 @@ const DebugLog:Logger = new Logger (0)
 
 //Services ======================
 // DAO
-const DAOClass:DAOWrapper  = new DAOWrapper (0,DebugLog);
+const DAOClass:DAOWrapper  = new DAOWrapper (1,DebugLog);
 
 
 DebugLog.print(' NEW SESSION ########################################################')
@@ -61,8 +61,9 @@ app.get('/Connect', async (req,res)=>{
 app.post('/Login/:ID', async (req,res)=>{
     await  DebugLog.print('===============================================',0)
     const {ID} = req.params;
+    const {password} = req.body
     await  DebugLog.print(`Login requested [${ID}]`,0)
-    const LoginReturn = await LS.Login(ID)
+    const LoginReturn = await LS.Login(ID,password)
     if(LoginReturn.ReturnProfile){
         res.status(200)
     }
@@ -89,11 +90,11 @@ app.patch('/LogOut/:ID', async (req,res)=>{
 app.post('/Create', async (req,res)=>{
     await  DebugLog.print('===============================================',0)
     await  DebugLog.print('HTTP Create Profile',0)
-    const {FirstName,LastName, Password, ManagerID, EmployeeArray }=req.body;
+    const {FirstName,LastName, Password, id}=req.body;
     try {
         await DebugLog.print('Create Try block',0)
         //create
-        const ReturnLogin = await PS.CreateProfile( {FirstName,LastName, Password, ManagerID, EmployeeArray});
+        const ReturnLogin = await PS.CreateProfile( {FirstName,LastName, Password, id});
         const ReturnAuthentication = await LS.CreateCreds(ReturnLogin .ReturnProfile.id);
         ReturnLogin.AuthenticationString = ReturnAuthentication
         await DebugLog.print(`Return Profile: [${JSON.stringify( ReturnLogin  )}]`,0)
@@ -252,12 +253,12 @@ app.patch('/Manager/:ID', async (req,res)=>{
     await  DebugLog.print('===============================================',0)
     const {ID} = req.params;
     const BodyReturn:ResultReturnMarkRequest = req.body
-    await  DebugLog.print(`HTTP Manager change Request [${ID}] => Type:[${BodyReturn.Type}] >> [${BodyReturn.ReturnString}]`,0);
+    await  DebugLog.print(`HTTP Manager change Request [${ID}] => Type:[${RequestStatus[BodyReturn.Type]}] >> [${BodyReturn.ReturnString}]`,0);
     try {
         await  DebugLog.print(`Manager change > [${BodyReturn.Type}]`,0);
-        const ReturnRequestArray:TransferRequest =  await RS.ManagerChangeRequest(ID,BodyReturn.ReturnString,BodyReturn.Type)
+        const ReturnRequestArray:TransferRequest =  await RS.ManagerChangeRequest(ID,BodyReturn.ReturnString,BodyReturn.Type, BodyReturn.Message)
         res.status(200)
-        await  DebugLog.print(`Manager request change sent [${ID}] => [${ReturnRequestArray.ReturnRequest.id}]`,0)
+        await  DebugLog.print(`Manager request change sent [${ID}] => type:[${RequestStatus[ReturnRequestArray.ReturnRequest.RequestStatus]}] >> [${ReturnRequestArray.ReturnRequest.id}]`,0)
         res.send(JSON.stringify({...ReturnRequestArray}));
     } catch (error) {
         switch(error?.errorType){
