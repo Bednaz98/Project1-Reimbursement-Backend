@@ -4,7 +4,8 @@
   "description": "Server",
   "main": "index.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "npm index.js"
   },
   "author": "",
   "license": "ISC",

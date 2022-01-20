@@ -24,7 +24,7 @@ const app = express(); // Server Init
 // Converts body to json Automatically
 app.use(express.json()); // Auto convert all incoming request to json
 app.use(cors()); // enable cors
-const PortNumber:number = 3001;
+const PortNumber:number = Number(process.env.PORT) ?? 3001;
 
 //==============================================
 // Logging service
@@ -187,12 +187,13 @@ app.get('/Profile/:ID/Manager', async (req,res)=>{
 app.post('/Request/:ID', async (req,res)=>{
     await  DebugLog.print('===============================================',0)
     const {ID} = req.params;
-    const {AuthenticationString, Amount, file }=req.body;
+    const {AuthenticationString, Amount,  Message }=req.body;
     await  DebugLog.print(`Request Request creation [${ID}] => [${Amount}]`,0)
     try {
-        const ReturnRequestArray = await PS.MakeRequest(ID,Amount,file)
+        const ReturnRequestArray = await PS.MakeRequest(ID,Amount, Message)
         res.status(200)
         await  DebugLog.print(`Created Request Sent [${ID}] => [${ReturnRequestArray.ReturnRequest.id}]`,0)
+        await  DebugLog.print(`Created Incoming Message:  [ ${Message} ]`,0)
         res.send(JSON.stringify({...ReturnRequestArray}));
     } catch (error) {
         switch(error?.errorType){
@@ -285,6 +286,24 @@ app.get('/Manager/:ID/:AuthorizationString', async (req,res)=>{
         }
         res.send( JSON.stringify( error ) );
     }
+})
+
+app.get('/Records', async (req,res)=>{
+    await  DebugLog.print('===============================================',0)
+    try {
+        await  DebugLog.print(`HTTP Records requested `,0)
+        const ReturnRequestArray = await RS.ManagerGetRecords()
+        res.status(200)
+        await  DebugLog.print(`Record length return: [${ReturnRequestArray.ReturnRecords.length}]`,0)
+        res.send(JSON.stringify({...ReturnRequestArray}));
+    } catch (error) {
+        switch(error?.errorType){
+            case /*HTTPRequestErrorFlag*/0:{ res.status(404) }
+            default: { res.status(404) }
+        }
+        res.send( JSON.stringify( error ) );
+    }
+
 })
 
 // Admin Routes ########################################################

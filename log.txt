@@ -1,116 +1,577 @@
-Tue Jan 18 2022 20:09:44 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
-Tue Jan 18 2022 20:09:44 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:09:44 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-e not a manager
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:00 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  Login requested [bednaz]
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  Login success  [{"ReturnProfile":{"FirstName":"Joshua","LastName":"Bednaz","id":"bednaz","Password":"1234","ManagerID":"","EmployeeArray":[],"SendRequestIDArray":[]},"AuthenticationString":"47e51121-56b2-4cef-8546-ef0d19f475e2","password":""}]
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
-============
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  Connection Hit
-ss
-Tue Jan 18 2022 20:10:04 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
-Tue Jan 18 2022 20:10:05 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:05 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:10:05 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
-Tue Jan 18 2022 20:10:05 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 0
-Tue Jan 18 2022 20:10:49 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:49 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:10:49 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
-Tue Jan 18 2022 20:10:49 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
-st return, Total: 0
-Tue Jan 18 2022 20:10:58 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:10:58 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:10:58 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
- called
-Tue Jan 18 2022 20:10:58 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 0
-Tue Jan 18 2022 20:11:03 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:11:03 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
-Tue Jan 18 2022 20:11:03 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
-Tue Jan 18 2022 20:11:03 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
-Tue Jan 18 2022 20:11:03 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
-Tue Jan 18 2022 20:11:03 GMT-0500 (Eastern Standard Time) =>  No Manager access
-Tue Jan 18 2022 20:11:03 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
-Tue Jan 18 2022 20:11:04 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:11:04 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:11:04 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
- called
-Tue Jan 18 2022 20:11:04 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
-st return, Total: 0
-Tue Jan 18 2022 20:11:07 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:11:07 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:11:07 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
- called
-Tue Jan 18 2022 20:11:07 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
-st return, Total: 0
-Tue Jan 18 2022 20:11:12 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:11:12 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:11:12 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
- called
-Tue Jan 18 2022 20:11:12 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
-st return, Total: 0
-Tue Jan 18 2022 20:11:13 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:11:13 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
-Tue Jan 18 2022 20:11:13 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
-Tue Jan 18 2022 20:11:13 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
-Tue Jan 18 2022 20:11:13 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
-Tue Jan 18 2022 20:11:13 GMT-0500 (Eastern Standard Time) =>  No Manager access
-Tue Jan 18 2022 20:11:13 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
-Tue Jan 18 2022 20:12:21 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:12:21 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:12:21 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
-Tue Jan 18 2022 20:12:21 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
-st return, Total: 0
-Tue Jan 18 2022 20:12:22 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:12:22 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
-Tue Jan 18 2022 20:12:22 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
-Tue Jan 18 2022 20:12:22 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
-Tue Jan 18 2022 20:12:22 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
-Tue Jan 18 2022 20:12:22 GMT-0500 (Eastern Standard Time) =>  No Manager access
-Tue Jan 18 2022 20:12:22 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
-Tue Jan 18 2022 20:12:34 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:12:34 GMT-0500 (Eastern Standard Time) =>  Request Request creation [bednaz] => [567]
-Tue Jan 18 2022 20:12:34 GMT-0500 (Eastern Standard Time) =>  Service Make Request
-Tue Jan 18 2022 20:12:34 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
-Tue Jan 18 2022 20:12:34 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
-Tue Jan 18 2022 20:12:34 GMT-0500 (Eastern Standard Time) =>  wrapper called create request
-Tue Jan 18 2022 20:12:34 GMT-0500 (Eastern Standard Time) =>  Created Request Sent [bednaz] => [~bednaz~3672a0e7-c9a3-46e9-ab9e-dab88c1e32f6]
-Tue Jan 18 2022 20:12:35 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:12:35 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:12:35 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
-Tue Jan 18 2022 20:12:35 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 1
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  No Manager access
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  ===============================================
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
-Tue Jan 18 2022 20:12:38 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 1
+Wed Jan 19 2022 07:49:53 GMT-0500 (Eastern Standard Time) =>  Connection Hit
+Wed Jan 19 2022 07:49:54 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:49:54 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 07:49:54 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 07:49:54 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 07:49:54 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 07:49:54 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  Service returning all request
+, all request found, Total: 4
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 07:49:59 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 07:50:00 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:00 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 07:50:00 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 07:50:00 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 07:50:00 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 07:50:00 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 07:50:01 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:01 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 07:50:01 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 07:50:01 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:50:01 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 07:50:01 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 07:50:01 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 07:50:02 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:02 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 07:50:02 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 07:50:02 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 07:50:02 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 07:50:02 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 07:50:03 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 07:50:05 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:05 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 07:50:05 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 07:50:05 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 07:50:05 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 07:50:05 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 07:50:07 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 07:50:09 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:09 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 07:50:09 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 07:50:09 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:50:09 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 07:50:09 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 07:50:09 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  Service returning all request
+, all request found, Total: 4
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 07:50:10 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 07:50:11 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:11 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 07:50:11 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 07:50:11 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 07:50:11 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 07:50:11 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 07:50:24 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:24 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 07:50:24 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 07:50:24 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 07:50:24 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 07:50:24 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 07:50:58 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 07:50:58 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 07:50:58 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 07:50:58 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 07:50:58 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 07:50:58 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 08:01:58 GMT-0500 (Eastern Standard Time) =>   NEW SESSION ########################################################
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:02:02 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  Service returning all request
+, all request found, Total: 4
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:03:59 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:04:01 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  Service returning all request
+, all request found, Total: 4
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:04:02 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 08:04:07 GMT-0500 (Eastern Standard Time) =>   NEW SESSION ########################################################
+Wed Jan 19 2022 08:04:10 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:10 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 08:04:10 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 08:04:10 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 08:04:10 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:10 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:04:11 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 08:04:12 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:12 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 08:04:12 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 08:04:12 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 08:04:12 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:12 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 08:04:13 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:13 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 08:04:13 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 08:04:13 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:13 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 08:04:13 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 08:04:14 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:14 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 08:04:14 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 08:04:14 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 08:04:14 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:14 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:04:16 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 08:04:40 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:40 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 08:04:40 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 08:04:40 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 08:04:40 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:40 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:04:43 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 08:04:45 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:45 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 08:04:45 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 08:04:45 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:45 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 08:04:45 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 08:04:46 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:46 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 08:04:46 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 08:04:46 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:46 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 08:04:46 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 08:04:46 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 08:04:47 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:47 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 08:04:47 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 08:04:47 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:47 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 08:04:47 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 08:04:50 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:50 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 08:04:50 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 08:04:50 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:50 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 08:04:50 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 08:04:50 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 08:04:53 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:53 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 08:04:53 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 08:04:53 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:53 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 08:04:53 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:04:55 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 08:04:56 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:56 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 08:04:56 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 08:04:56 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 08:04:56 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:56 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 08:04:57 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 09:00:37 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:00:37 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 09:00:37 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 09:00:37 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:00:37 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 09:00:37 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 09:00:37 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 09:00:50 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:00:50 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:00:50 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:00:50 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:00:50 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:00:50 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:00:51 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:00:51 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:00:51 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:00:51 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:00:51 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:00:51 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 09:01:09 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 09:01:53 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 09:01:54 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:01:54 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 09:01:54 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 09:01:54 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 09:01:54 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:01:54 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, all request found, Total: 4
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 09:01:55 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 09:02:02 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:02 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 09:02:02 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 09:02:02 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 09:02:02 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:02 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+und
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  Service returning all request
+, all request found, Total: 4
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 09:02:05 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 09:02:06 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:06 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:06 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:06 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:06 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:06 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:07 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:07 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 09:02:07 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 09:02:07 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:07 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 09:02:07 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 09:02:07 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 09:02:08 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:08 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 09:02:08 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 09:02:08 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 09:02:08 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:08 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 09:02:11 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 09:02:12 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:12 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:12 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:12 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:12 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:12 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:24 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:24 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 09:02:24 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 09:02:24 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 09:02:24 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:24 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 09:02:27 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:27 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 09:02:27 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 09:02:27 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 09:02:27 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  Service returning all request
+ request
+uest found, Total: 4
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:28 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:29 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:29 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 09:02:29 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 09:02:29 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:29 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 09:02:29 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 09:02:29 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 09:02:30 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:30 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:30 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:30 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:30 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:30 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:32 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:32 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:32 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:32 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:32 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:32 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:43 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:43 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:43 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:43 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:43 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:43 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:54 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:54 GMT-0500 (Eastern Standard Time) =>  Manager name Requested [bednaz] => [undefined]
+Wed Jan 19 2022 09:02:54 GMT-0500 (Eastern Standard Time) =>  Service Get manager name undefined
+Wed Jan 19 2022 09:02:54 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:54 GMT-0500 (Eastern Standard Time) =>  Service Employee search not exist
+Wed Jan 19 2022 09:02:54 GMT-0500 (Eastern Standard Time) =>  No Manager access
+Wed Jan 19 2022 09:02:54 GMT-0500 (Eastern Standard Time) =>  Service Employee not a manager
+Wed Jan 19 2022 09:02:56 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:56 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:56 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:56 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:56 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:56 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:57 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:57 GMT-0500 (Eastern Standard Time) =>  HTTP Manager getting all request [bednaz] 
+Wed Jan 19 2022 09:02:57 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request called
+Wed Jan 19 2022 09:02:57 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:57 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager request return, Total: 5
+Wed Jan 19 2022 09:02:57 GMT-0500 (Eastern Standard Time) =>  Manager search sent [bednaz]
+Wed Jan 19 2022 09:02:58 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:58 GMT-0500 (Eastern Standard Time) =>  HTTP Records requested 
+Wed Jan 19 2022 09:02:58 GMT-0500 (Eastern Standard Time) =>  Service Get All Manager getting records
+Wed Jan 19 2022 09:02:58 GMT-0500 (Eastern Standard Time) =>  wrapper called Get all Profiles
+Wed Jan 19 2022 09:02:58 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:58 GMT-0500 (Eastern Standard Time) =>  Record length return: [1]
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  ===============================================
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  HTTP Request search[bednaz] => type (number): [4]
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  Try Request search [bednaz] => type (number): [4]
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  Service Get all request called, => 4
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, found profile
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  Service Get all request called
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  wrapper called Get Single Profile
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  wrapper called get all request
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  Service returning all request
+, all request found, Total: 4
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  No admin access
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, admin privileges check: false
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  ServiceGet all request of type, Filter process: {ALL}
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  Service returning request of type, Total: 4
+Wed Jan 19 2022 09:02:59 GMT-0500 (Eastern Standard Time) =>  Request search [bednaz] => sent 4

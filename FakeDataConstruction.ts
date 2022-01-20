@@ -1,11 +1,13 @@
-import LocalDAO from "./DAOClasses/LocalDAO";
+import DAOWrapper from "./DAOClasses/DAOWrapper";
 import ProfileManager from "./Project1-GitUtil-Reimbursement/Classes/ProfileManager";
 import { Profile } from "./Project1-GitUtil-Reimbursement/Types/Entity";
+import Logger from "./Services/ServerLogger";
 
 
 
 export default class FData{
-    private TestDAO:LocalDAO = new LocalDAO ();
+    private TLogger = new Logger (0)
+    private TestDAO:DAOWrapper = new DAOWrapper(0, this.TLogger  );
     ProfileArray:ProfileManager[] = [];
     public async GenerateCompany(){
         const FirstNameArray:string[] = ['Tony','Incredible','Spider','Captain']

@@ -110,16 +110,19 @@ export default class ProfileService implements ProfileHTTPCInterface{
     async MakeRequest(EmployeeID:string, Amount:number, Message:string):Promise<TransferRequest> {
         await this.DebugLog.print('Service Make Request',0)
         const FoundProfile:Profile = await this.DAOClass.GetSingleProfile(EmployeeID);
+        await this.DebugLog.print('Service profile found',0)
         // if(! FoundProfile){ ThrowServerError( HTTPRequestErrorFlag.EmployeeNotFoundGeneral )}
-        const FoundManager:Profile = await this.DAOClass.GetSingleProfile(FoundProfile.ManagerID)
+        //const FoundManager:Profile = await this.DAOClass.GetSingleProfile(FoundProfile.ManagerID)
         // if(! await this.Checker.IsManger( (FoundManager) ) ) { ThrowServerError(HTTPRequestErrorFlag.NotAManager) }
         // else {
-            const TempRequest:RequestBuilder = new RequestBuilder( FoundProfile.ManagerID, FoundProfile.id, Amount  );
-            if(Message.length >0){ TempRequest.AttachInputMessage(Message)}
-            const DAOReturnRequest:Request = await this.DAOClass.CreateRequest(TempRequest.DeconstructRequest())
-            if(! DAOReturnRequest){ ThrowServerError(HTTPRequestErrorFlag.RequestCreationError); }
-            this.DebugLog.print('Service return created request',0)
-            return {ReturnRequest:DAOReturnRequest};
+        const TempRequest:RequestBuilder = new RequestBuilder( FoundProfile.ManagerID, FoundProfile.id, Amount  );
+        await this.DebugLog.print('Service Request Build',0)
+        if(Message?.length >0){await this.DebugLog.print('Service attaching message',0); TempRequest.AttachInputMessage(Message)}
+        const DAOReturnRequest:Request = await this.DAOClass.CreateRequest(TempRequest.DeconstructRequest())
+        await this.DebugLog.print('Service attaching message',0)
+        if(! DAOReturnRequest){ ThrowServerError(HTTPRequestErrorFlag.RequestCreationError); }
+        await this.DebugLog.print('Service return created request',0)
+        return {ReturnRequest:DAOReturnRequest};
         // }
     }
 
@@ -174,6 +177,9 @@ export default class ProfileService implements ProfileHTTPCInterface{
         this.DebugLog.print('Service all request, All request retrieved',0)
         // Filter the request for this employee, already manages security
         let filteredArray:Request[]=[]
+        for(let i =0; i < AllRequest.length ;i++){
+            if(AllRequest[i].RequestStatus !== RequestStatus.deleted ){ filteredArray.push( AllRequest[i] ) }
+        }
         this.DebugLog.print('Service all request, filtering request',0)
         const RequestFound:Request[] = this.Proc.FilterRequestByID(FoundProfile.id, filteredArray )
         this.DebugLog.print('Service returning all request',0)
@@ -203,7 +209,7 @@ export default class ProfileService implements ProfileHTTPCInterface{
         switch(Type){
             case RequestStatus.All:{
                 await this.DebugLog.print(`ServiceGet all request of type, Filter process: {ALL}`,0);
-                const ReturnRequestArray:Request[] =[];
+                let ReturnRequestArray:Request[] =[];
                 //quick check to send everything to the admin
                 if(IsAdmin){ return {ReturnRequestArray:ReturnRequestArray} }
                 for(let i =0; i < RequestArray.length; i++ ){
@@ -217,10 +223,10 @@ export default class ProfileService implements ProfileHTTPCInterface{
             default:{
                 await this.DebugLog.print(`ServiceGet all request of type, Filter process: ~${Type}`,0);
                 // for all other request, grab a specific one
-                const ReturnRequestArray:Request[] =[];
+                let ReturnRequestArray:Request[] =[];
                 for(let i =0; i < RequestArray.length; i++ ){
                     //only add to the stack if it is the type requested
-                    if(RequestArray[i].RequestStatus === Type){ 
+                    if( (RequestArray[i].RequestStatus === Type) && (RequestArray[i].RequestStatus !=RequestStatus.deleted) ){ 
                         await this.DebugLog.print(`Service Get all request of type, adding request: Type${RequestArray[i].RequestStatus} === ${Type} >>  ${RequestArray[i].id}`,0); 
                         ReturnRequestArray.push( RequestArray[i] ) }
                 }

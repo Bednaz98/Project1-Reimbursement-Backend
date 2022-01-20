@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/fba7791d-a946-4781-9df3-314f2c6b5121/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Joshua-Bednaz-ProjectOne-BendEnd",
+  "appService.deploySubpath": "."
+}

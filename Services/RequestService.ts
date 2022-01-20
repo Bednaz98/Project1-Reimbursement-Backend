@@ -1,7 +1,7 @@
 import DAOWrapper from "../DAOClasses/DAOWrapper";
 import DataProcessor from "../Project1-GitUtil-Reimbursement/Classes/DataProcessor";
 import ThrowServerError from "../Project1-GitUtil-Reimbursement/Classes/ServerErrorClass";
-import { TransferRequest, TransferRequestArray } from "../Project1-GitUtil-Reimbursement/Types/dto";
+import { TransferRecords, TransferRequest, TransferRequestArray } from "../Project1-GitUtil-Reimbursement/Types/dto";
 import { Profile, Request } from "../Project1-GitUtil-Reimbursement/Types/Entity";
 import { HTTPRequestErrorFlag, RequestStatus } from "../Project1-GitUtil-Reimbursement/Types/Enums";
 import { ManagerHTTPCLInterface } from "../Project1-GitUtil-Reimbursement/Types/HTTPCommands";
@@ -19,6 +19,25 @@ export default class RequestServices implements ManagerHTTPCLInterface{
         this.Proc=InitDataProcessor
         this.Checker=InitDAOCheck
         this.DebugLog = InitDebugLog
+    }
+    async ManagerGetRecords(): Promise<TransferRecords> {
+        await this.DebugLog.print('Service Get All Manager getting records',0);
+        const profileArray = await this.DAOClass.GetAllProfiles();
+        const requestArray = await this.DAOClass.GetAllRequest();
+        let ReturnArray:string[] = [];
+        for(let i =0; i <profileArray.length;i++ ){
+            let sum:number =0;
+            for(let j =0; j <requestArray.length; j++ ){
+                if(requestArray[j].RequestStatus != RequestStatus.deleted){
+                    let extract = this.Proc.ExtractRequestIDs(requestArray[j].id);
+                    if(extract[1] ===profileArray[i].id ){sum+= Number(requestArray[j].Amount)}
+                }
+            
+            }
+            ReturnArray.push(`${profileArray[i].FirstName} ${profileArray[i].LastName}: ${sum}` )
+        }
+        const Transfer:TransferRecords= { ReturnRecords: ReturnArray};
+        return Transfer;
     }
 
     async ManagerChangeRequest(ManagerID:string, RequestID:string,Type:RequestStatus,Message:string  ):Promise<TransferRequest> {
@@ -56,7 +75,7 @@ export default class RequestServices implements ManagerHTTPCLInterface{
         return {ReturnRequest:ReturnRequest};
     }
     async ManagerGetAllRequest(ManagerID:string):Promise<TransferRequestArray>{
-        this.DebugLog.print('Service Get All Manager request called',0)
+        await this.DebugLog.print('Service Get All Manager request called',0)
         const FoundArray:Request[] = await this.DAOClass.GetAllRequest()
         let ReturnArray:Request[] = [];
         for(let i =0; i <FoundArray.length ; i++ ){
@@ -66,7 +85,7 @@ export default class RequestServices implements ManagerHTTPCLInterface{
             }
         }
         const Transfer:TransferRequestArray = {ReturnRequestArray:ReturnArray }
-        this.DebugLog.print(`Service Get All Manager request return, Total: ${Transfer.ReturnRequestArray.length}`,0);
+        await this.DebugLog.print(`Service Get All Manager request return, Total: ${Transfer.ReturnRequestArray.length}`,0);
         return Transfer;
     }
 
